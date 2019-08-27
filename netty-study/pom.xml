@@ -18,6 +18,8 @@
     <url>http://www.example.com</url>
     <modules>
         <module>netty-simple-com.robust.study.netty.demo</module>
+        <module>netty-server</module>
+        <module>lion</module>
     </modules>
 
     <properties>
