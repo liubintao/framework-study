@@ -19,14 +19,14 @@
 
     <modules>
         <module>netty-study</module>
-        <module>study-dependency</module>
+        <module>study-bom-dependency</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>com.robust.study</groupId>
-                <artifactId>study-dependency</artifactId>
+                <artifactId>study-bom-dependency</artifactId>
                 <version>${dependency-bom.version}</version>
                 <type>pom</type>
                 <scope>import</scope>

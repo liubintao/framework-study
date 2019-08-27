@@ -11,10 +11,14 @@
 
     <groupId>com.robust.study</groupId>
     <artifactId>netty-study</artifactId>
+    <packaging>pom</packaging>
 
     <name>netty-study</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
+    <modules>
+        <module>netty-simple-com.robust.study.netty.demo</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
