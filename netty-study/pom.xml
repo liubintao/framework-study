@@ -17,7 +17,7 @@
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
     <modules>
-        <module>netty-simple-com.robust.study.netty.demo</module>
+        <module>netty-simple-demo</module>
         <module>netty-server</module>
         <module>lion</module>
     </modules>
@@ -32,10 +32,6 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
         </dependency>
         <dependency>
             <groupId>com.robust.tools</groupId>

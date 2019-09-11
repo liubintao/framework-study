@@ -12,8 +12,18 @@
     <groupId>com.robust.study</groupId>
     <artifactId>netty-simple-demo</artifactId>
 
-    <name>netty-simple-com.robust.study.netty.demo</name>
+    <name>netty-simple-demo</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-transport</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-codec</artifactId>
+        </dependency>
+    </dependencies>
 </project>
