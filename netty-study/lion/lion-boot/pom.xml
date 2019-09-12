@@ -25,6 +25,10 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>lion-cacher</artifactId>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>lion-registion</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
