@@ -18,8 +18,9 @@
     </properties>
 
     <modules>
-        <module>netty-study</module>
+        <module>robust-study-netty</module>
         <module>study-bom-dependency</module>
+        <module>robust-study-spring</module>
     </modules>
 
     <dependencyManagement>

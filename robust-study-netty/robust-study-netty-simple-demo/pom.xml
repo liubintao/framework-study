@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.robust.study</groupId>
+    <artifactId>robust-study-netty-simple-demo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>robust-study-netty-simple-demo</name>
+    <url>http://www.example.com</url>
+
+    <properties>
+        <dependency-bom.version>1.0-SNAPSHOT</dependency-bom.version>
+        <java.encoding>UTF-8</java.encoding>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.robust.study</groupId>
+                <artifactId>study-bom-dependency</artifactId>
+                <version>${dependency-bom.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.robust.tools</groupId>
+                <artifactId>tool-dependencies-bom</artifactId>
+                <version>${dependency-bom.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-transport</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-codec</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.robust.tools</groupId>
+            <artifactId>tool-kit</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${java.encoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
