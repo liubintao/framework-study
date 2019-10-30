@@ -1,4 +1,4 @@
-package com.robust.study.spring.annotation;
+package com.robust.study.spring.framework.webmvc.servlet.annotation;
 
 /**
  * @Description:
@@ -9,6 +9,5 @@ package com.robust.study.spring.annotation;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface Service {
-    String value() default "";
+public @interface Controller {
 }

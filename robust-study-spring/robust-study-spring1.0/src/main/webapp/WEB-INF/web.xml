@@ -6,7 +6,7 @@
     <display-name>Archetype Created Web Application</display-name>
     <servlet>
         <servlet-name>spring1.0</servlet-name>
-        <servlet-class>com.robust.study.spring.servlet.DispatcherServlet</servlet-class>
+        <servlet-class>com.robust.com.robust.study.spring.framework.webmvc.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath:application.properties</param-value>

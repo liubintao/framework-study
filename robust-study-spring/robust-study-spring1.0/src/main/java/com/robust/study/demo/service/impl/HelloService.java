@@ -1,7 +1,7 @@
 package com.robust.study.demo.service.impl;
 
 import com.robust.study.demo.service.IHelloService;
-import com.robust.study.spring.annotation.Service;
+import com.robust.study.spring.framework.webmvc.servlet.annotation.Service;
 
 /**
  * @Description:

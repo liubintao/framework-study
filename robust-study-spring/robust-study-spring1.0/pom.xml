@@ -40,10 +40,10 @@
             </resource>
             <resource>
                 <directory>${basedir}/src/main/java</directory>
-                <includes>
-                    <!--<include>**/*.java</include>-->
-                    <include>**/*.class</include>
-                </includes>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                    <exclude>**/*.class</exclude>
+                </excludes>
             </resource>
         </resources>
         <plugins>

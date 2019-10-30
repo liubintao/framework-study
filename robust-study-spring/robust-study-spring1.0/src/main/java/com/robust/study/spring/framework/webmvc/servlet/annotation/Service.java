@@ -1,4 +1,4 @@
-package com.robust.study.spring.annotation;
+package com.robust.study.spring.framework.webmvc.servlet.annotation;
 
 /**
  * @Description:
@@ -6,9 +6,9 @@ package com.robust.study.spring.annotation;
  * @CreateDate: 2019/10/22 15:16
  * @Version: 1.0
  */
-@Target({ElementType.TYPE, ElementType.METHOD})
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface RequestMapping {
+public @interface Service {
     String value() default "";
 }
