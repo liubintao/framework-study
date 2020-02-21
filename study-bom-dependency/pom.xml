@@ -19,7 +19,7 @@
         <lombok.version>1.18.4</lombok.version>
         <!--log-->
         <slf4j.version>1.7.25</slf4j.version>
-        <netty.version>4.1.22.Final</netty.version>
+        <netty.version>4.1.45.Final</netty.version>
         <os.detected.classifier>linux-x86_64</os.detected.classifier>
         <tools.version>1.0-SNAPSHOT</tools.version>
 
