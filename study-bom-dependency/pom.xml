@@ -13,7 +13,7 @@
 
     <properties>
         <!--test-->
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <assertj.version>2.6.0</assertj.version>
         <!--compile-->
         <lombok.version>1.18.4</lombok.version>
