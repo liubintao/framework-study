@@ -23,7 +23,7 @@
         <os.detected.classifier>linux-x86_64</os.detected.classifier>
         <tools.version>1.0-SNAPSHOT</tools.version>
 
-        <spring.version>5.2.0.RELEASE</spring.version>
+        <spring.version>5.3.18</spring.version>
     </properties>
 
     <dependencyManagement>
